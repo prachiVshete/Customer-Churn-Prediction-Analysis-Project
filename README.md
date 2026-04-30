@@ -1,23 +1,30 @@
-# Customer Churn Prediction Analysis Project
+# Customer Churn Prediction Analysis
 
-# Goal:
-1. This project focuses on analyzing customer data to predict whether a customer is likely to leave (churn) or stay with the company.
-2. The goal is to help businesses understand customer behavior and take proactive steps to improve retention.
-3. To identify key factors that influence customer churn and build a predictive model that helps businesses reduce customer loss.
+# Goal
+To create a dependable system that can flag potential churn customers in advance, helping businesses improve customer retention strategies.
 
-# Tools & Technologies Used
-1. Python
-2. Jupyter Notebook
-3. Pandas, NumPy
-4. Matplotlib / Seaborn (for visualization)
-5. Scikit-learn (for model building)
+# Project Overview
+1. This analysis is performed using customer data to uncover hidden patterns and build a predictive model that classifies whether a customer will stay or leave.
+2. Understanding why customers leave is a key challenge for any business. In this project, a machine learning approach is used to identify customers who are likely to churn, allowing companies to take preventive actions.
 
-# The dataset used in this project was taken from Kaggle, which provides real-world customer data for analysis.
+# Technologies used
+1. Python (Jupyter Notebook)
+2. Pandas & NumPy for data handling
+3. Data Visualization using Matplotlib & Seaborn
+4. Machine Learning with Scikit-learn
 
-# Project Workflow
-1. Data Collection: Imported dataset from Kaggle
-2. Data Cleaning: Handled missing values, removed duplicates, and corrected inconsistencies
-3. Data Processing: Performed feature selection and transformation
-4. Exploratory Data Analysis (EDA): Visualized patterns and trends in customer behavior
-5. Model Building: Applied machine learning algorithms to predict churn
-6. Evaluation: Checked model performance using accuracy and other metrics
+# Dataset Source: The dataset for this project was sourced from Kaggle, containing customer-related attributes like demographics, usage patterns, and account information.
+
+# Approach Followed
+Instead of just building a model directly, a step-by-step approach was followed:
+
+1. Cleaned and prepared raw data for analysis
+2. Explored customer behavior through visualizations
+3. Selected important features affecting churn
+4. Trained and tested multiple models
+
+# Model Highlight: Random Forest
+1. Implemented Random Forest for prediction
+2. Works by combining multiple decision trees for better accuracy
+3. Handles large datasets and reduces overfitting
+4. Provides reliable and robust classification results
